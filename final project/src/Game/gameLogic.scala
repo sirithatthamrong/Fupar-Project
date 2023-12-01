@@ -70,7 +70,7 @@ class gameLogic(GridNum: Int, EnemyNum: Int, StartPt: (Int, Int), EndPt: (Int, I
 
   private def checkEnemyAtEndPoint(enemy: Enemy): Unit = {
     if (enemy.Pos == EndPt) {
-      enemiesInTown.getAndIncrement()
+      enemiesInTown.addAndGet(1)
       gameEnemies = gameEnemies.filterNot(_ == enemy)
     }
   }
