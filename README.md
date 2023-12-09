@@ -1,4 +1,5 @@
 # Tower Defense Enemy Pathfinding with A*
+This project was completed as part of the term assignment for ICCS311: Functional and Parallel Programming by Kanladaporn Sirithatthamrong and Chada Kengradomying.
 
 ## Overview
 This project is an implementation of the A* pathfinding algorithm, which aims to find the best path for the attacking enemies to reach the goal while preserving as much enemy counts as possible. The project focuses on efficiently navigating through a grid-based map to find optimal paths avoiding towers targeting them only when it is reasonable to do so. The project also aims to utilize the power of parallel programming to enhance and speed up the program while also preserving its original running time. 
